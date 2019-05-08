@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel --presets es2015 -d compiled/ src",
-    "start": "node compiled/server"
+    "start": "babel --presets es2015 -d compiled/ src | node compiled/server"
   },
   "author": "",
   "license": "ISC",
